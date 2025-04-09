@@ -9,7 +9,7 @@ export default function ProductCard({
   link: string 
 }) {
   return (
-      <div className="group relative bg-white rounded-2xl shadow-sm overflow-hidden w-full max-w-sm transition-all duration-500 hover:shadow-lg hover:-translate-y-2 border border-gray-100 hover:border-blue-100">
+      <div className="group relative bg-white rounded-2xl shadow-sm overflow-hidden w-full max-w-sm transition-all duration-500 hover:shadow-lg hover:-translate-y-2 border border-gray-100 hover:border-blue-100 mx-2 cursor-pointer">
           {/* Gradient overlay */}
           <div className="absolute inset-0 bg-gradient-to-br from-white to-blue-50 opacity-0 group-hover:opacity-100 transition-opacity duration-500 z-0"></div>
           
